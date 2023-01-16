@@ -1,5 +1,5 @@
 export default function outraRota() {
     return (
-        <div>Outra Rota</div>
+        <h1>Outra Rota</h1>
     )
 }
