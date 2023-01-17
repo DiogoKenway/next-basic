@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function rotas() {
     return (
@@ -15,6 +16,9 @@ export default function rotas() {
                     <li>Daniel</li>
                 </Link>
             </ul>
+            <div style={{ display: "flex", flexDirection: "column" }}>
+                <button onClick={() => router.push("/rotas/123/buscar")}></button>
+            </div>
         </div>
     )
 }
