@@ -9,10 +9,10 @@ export default function rotas() {
                     <li>Params</li>
                 </Link>
                 <Link href="/rotas/123/buscar">
-                    <li>Params</li>
+                    <li>buscar</li>
                 </Link>
                 <Link href="/rotas/123/Daniel">
-                    <li>Params</li>
+                    <li>Daniel</li>
                 </Link>
             </ul>
         </div>
