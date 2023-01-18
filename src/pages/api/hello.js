@@ -6,6 +6,6 @@ export default function (req, res) {
     { name: 'Pedro Doe' },
     { name: 'Maria Doe' },
     { name: 'Jonas Doe' },
-    { name: 'Dii Doe' },
+    { name: 'Dii Doe' }
   ])
 }
